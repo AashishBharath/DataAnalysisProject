@@ -1,2 +1,0 @@
-# DataAnalysisProject
-Data Analysis Project
