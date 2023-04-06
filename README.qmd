@@ -5,4 +5,12 @@ format: gfm
 editor: visual
 ---
 
-## 
+```{r}
+school_shooting_data <- read.csv("C:/Users/aashi/OneDrive - University of St. Thomas/Spring2023/DataVisualization/Project/school_shooting_data.csv")
+
+```
+
+```{r}
+library('ggplot2')
+ggplot(school_shooting_data) + geom_col(aes(x='School', y = 'School'))
+```
